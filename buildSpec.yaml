@@ -8,13 +8,13 @@ phases:
         - ./deploy.sh -i
     pre_build:
         commands:
-        - echo pre-build3
+        - echo pre-build4
     build:
         commands:
         - ./deploy.sh -b
     post_build:
         commands:
-        - echo post-build3
+        - echo post-build4
         
 artifacts:
     files:
